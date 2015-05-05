@@ -41,7 +41,7 @@ namespace SportsStore.WebUI.Controllers
                 return File(prod.ImageData, prod.ImageMimeType);
             }
             else
-            {
+            {  
                 return null;
             }
         }
